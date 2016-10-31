@@ -1,0 +1,706 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Cassiopeia_313751158.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CASSIOPEIA_313751158_FORM DIALOGEX 0, 0, 649, 250
+STYLE WS_CHILD
+FONT 9, "造字工房悦黑体验版常规体"
+BEGIN
+    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,0,0,670,263
+    EDITTEXT        IDC_EDIT2,301,153,107,57,ES_AUTOHSCROLL
+    LTEXT           "其他说明",IDC_STATIC,262,154,33,10
+    PUSHBUTTON      "返回",IDC_BUTTON1,364,221,58,22
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,57,129,68,15
+    PUSHBUTTON      "打开数据库",IDC_BUTTON2,17,51,114,16
+    PUSHBUTTON      "关闭当前数据库",IDC_BUTTON3,17,74,114,17
+    LTEXT           "日期",IDC_STATIC,19,131,26,11
+    CONTROL         "收入",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,19,146,36,
+                    17
+    CONTROL         "支出",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,81,146,37,
+                    14
+    EDITTEXT        IDC_EDIT1,46,166,70,15,ES_AUTOHSCROLL
+    LTEXT           "金额",IDC_STATIC,23,168,21,11
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,145,10,293,98
+    LTEXT           "Static",IDC_STATIC1,18,35,112,14
+    LTEXT           "当前数据库",IDC_STATIC,18,20,78,11
+    PUSHBUTTON      "添加",IDC_BUTTON4,22,222,76,21
+    LTEXT           "消费类别",IDC_STATIC,154,134,35,10
+    CONTROL         "现金",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,192,134,34,
+                    11
+    CONTROL         "信用卡",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,234,133,
+                    37,12
+    CONTROL         "储蓄卡",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,284,132,
+                    37,13
+    COMBOBOX        IDC_COMBO1,190,153,60,54,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
+    LTEXT           "用途分类",IDC_STATIC,152,155,33,8
+    PUSHBUTTON      "删除",IDC_BUTTON5,140,221,65,22
+    PUSHBUTTON      "修改",IDC_BUTTON6,248,221,64,22
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 279, 104
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "造字工房悦黑体验版常规体"
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,222,24,50,14
+    EDITTEXT        IDC_EDIT1,85,17,120,19,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,99,46,107,22,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "新密码（New P）",IDC_STATIC,15,22,64,11
+    LTEXT           "确认新密码（Affirm P）",IDC_STATIC,14,51,83,13
+    PUSHBUTTON      "确认",IDC_BUTTON1,222,7,50,15
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 266, 116
+STYLE DS_CENTER | WS_CHILD
+EXSTYLE WS_EX_TRANSPARENT
+FONT 10, "造字工房悦黑体验版常规体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "登录",IDC_BUTTON1,30,93,70,16
+    EDITTEXT        IDC_EDIT1,98,27,146,22,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,98,59,145,24,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户名（User）",IDC_STATIC,30,34,57,8
+    LTEXT           "密码（Password）",IDC_STATIC,30,67,65,8
+    PUSHBUTTON      "忘记密码",IDC_BUTTON2,173,93,71,16
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 307, 120
+STYLE DS_CENTER | WS_CHILD
+FONT 10, "造字工房悦黑体验版常规体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,88,22,135,22,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,88,53,135,23,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,88,87,135,22,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户名（User）",IDC_STATIC,20,26,60,12
+    LTEXT           "密码（Password）",IDC_STATIC,19,60,64,11
+    LTEXT           "确认密码(Affrim P)",IDC_STATIC,18,90,65,17
+    PUSHBUTTON      "确定",IDC_BUTTON1,227,94,56,14
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 243, 139
+STYLE DS_CENTER | WS_CHILD
+EXSTYLE WS_EX_TRANSPARENT
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    CONTROL         158,IDC_STATIC,"Static",SS_BITMAP,0,0,267,134
+END
+
+IDD_FORMVIEW_Tab DIALOG DISCARDABLE  0, 0, 513, 189
+STYLE WS_CHILD
+FONT 9, "造字工房悦黑体验版常规体"
+BEGIN
+    CONTROL         160,IDC_STATIC_L,"Static",SS_BITMAP | SS_NOTIFY,8,7,61,8
+    CONTROL         160,IDC_STATIC_H,"Static",SS_BITMAP | SS_NOTIFY,118,7,61,
+                    8
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,11,17,367,142
+    CONTROL         160,IDC_STATIC_R,"Static",SS_BITMAP | SS_NOTIFY,63,7,61,
+                    8
+    CONTROL         164,IDC_STATIC,"Static",SS_BITMAP,387,0,273,261
+    CONTROL         157,IDC_STATIC,"Static",SS_BITMAP,10,152,349,95
+    CONTROL         144,IDC_STATIC_Hello,"Static",SS_BITMAP | SS_NOTIFY,0,0,
+                    677,266
+END
+
+IDD_FORMVIEW_Detail DIALOGEX 0, 0, 574, 237
+STYLE WS_CHILD
+FONT 9, "造字工房悦黑体验版常规体"
+BEGIN
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,0,0,670,261
+    LTEXT           "时间",IDC_STATIC_1,19,32,18,11
+    LTEXT           "时间",IDC_STATIC_2,20,56,20,10,0,WS_EX_TRANSPARENT
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,43,29,92,15
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,43,53,92,15
+    PUSHBUTTON      "明细账",IDC_BUTTON1,19,97,115,16
+    PUSHBUTTON      "返回",IDC_BUTTON2,19,143,116,17
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,139,28,284,189
+    PUSHBUTTON      "全部明细",IDC_BUTTON3,19,119,116,17
+    CONTROL         "收入",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    21,77,36,11
+    CONTROL         "支出",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    78,76,46,13
+END
+
+IDD_FORMVIEW_Statistics DIALOGEX 0, 0, 560, 239
+STYLE WS_CHILD
+FONT 9, "造字工房悦黑体验版常规体", 0, 0, 0x1
+BEGIN
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,0,0,671,263
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,47,14,100,19
+    LTEXT           "时间",IDC_STATIC,20,19,19,9
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,48,38,100,18
+    LTEXT           "时间",IDC_STATIC,22,43,17,13
+    PUSHBUTTON      "统计",IDC_BUTTON1,21,130,117,21
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,159,14,283,197
+    EDITTEXT        IDC_EDIT1,49,70,87,14,ES_AUTOHSCROLL
+    LTEXT           "总支出",IDC_STATIC,18,72,25,11,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,49,89,88,14,ES_AUTOHSCROLL
+    LTEXT           "总收入",IDC_STATIC,18,91,25,10
+    EDITTEXT        IDC_EDIT3,49,108,88,15,ES_AUTOHSCROLL
+    LTEXT           "合 计",IDC_STATIC,20,111,20,10
+    PUSHBUTTON      "返回",IDC_BUTTON2,21,193,118,17
+    PUSHBUTTON      "查看分析图",IDC_BUTTON3,21,160,117,20
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 298, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "造字工房悦黑体验版常规体"
+BEGIN
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP,0,0,301,68
+    PUSHBUTTON      "更改密码",IDC_BUTTON3,206,37,51,15
+    PUSHBUTTON      "添加",IDC_BUTTON1,137,7,54,16
+    DEFPUSHBUTTON   "统计",IDOK,138,36,50,17
+    PUSHBUTTON      "明细账",IDC_BUTTON2,205,7,50,16
+END
+
+IDD_FORMVIEW_Draw DIALOG DISCARDABLE  0, 0, 408, 173
+STYLE WS_CHILD
+FONT 9, "造字工房悦黑体验版常规体"
+BEGIN
+    PUSHBUTTON      "返回统计表",IDC_BUTTON1,7,7,60,22
+    PUSHBUTTON      "弹出功能表",IDC_BUTTON2,7,39,60,22
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,273,0,411,263
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CASSIOPEIA_313751158_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 642
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 97
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+        HORZGUIDE, 93
+        HORZGUIDE, 109
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_FORMVIEW_Tab, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 507
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+        HORZGUIDE, 70
+    END
+
+    IDD_FORMVIEW_Detail, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 567
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+
+    IDD_FORMVIEW_Statistics, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 553
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+        HORZGUIDE, 232
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_FORMVIEW_Draw, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\明细账.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\添加.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\统计.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\Capture1221.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\bian.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\ewq.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\anniu.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\tubiao.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\Tab.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_RETURN,      IDC_BUTTON1,            VIRTKEY, NOINVERT
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Cassiopeia_313751158"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Cassiopeia_313751158 Version 1.0",IDC_STATIC,40,10,119,
+                    8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_Menu_LogOut,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Cassiopeia_313751158.ico"
+IDR_CASSIOTYPE          ICON    DISCARDABLE     "res\\Cassiopeia_313751158Doc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Cassiopeia_313751158...", ID_APP_ABOUT
+    END
+    POPUP "&LogOut"
+    BEGIN
+        MENUITEM "SeeU(&L)",                    ID_Menu_LogOut
+    END
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Cassiopeia_313751158 MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Cassiopeia_313751158\0"
+            VALUE "LegalCopyright", "Copyright (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Cassiopeia_313751158.EXE\0"
+            VALUE "ProductName", "Cassiopeia_313751158 Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Cassiopeia_313751158\n\nCassio\n\n\nCassiopeia313751158.Document\nCassio Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Cassiopeia_313751158"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Cassiopeia_313751158.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

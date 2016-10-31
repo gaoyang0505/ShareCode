@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Cassiopeia_313751158 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Yang\AppData\Local\Temp\RSP145E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Cassiopeia_313751158.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Cassiopeia_313751158.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Cassiopeia_313751158Doc.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Cassiopeia_313751158View.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Detail.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Help.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Login.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\MainFrm.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\MenuAll.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\PassWord.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Register.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Statistics.cpp"
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Tab.cpp"
+]
+Creating command line "cl.exe @C:\Users\Yang\AppData\Local\Temp\RSP145E.tmp" 
+Creating temporary file "C:\Users\Yang\AppData\Local\Temp\RSP145F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Cassiopeia_313751158.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Yang\AppData\Local\Temp\RSP145F.tmp" 
+Creating temporary file "C:\Users\Yang\AppData\Local\Temp\RSP1460.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Cassiopeia_313751158.pdb" /debug /machine:I386 /out:"Debug/Cassiopeia_313751158.exe" /pdbtype:sept 
+.\Debug\Cassiopeia_313751158.obj
+.\Debug\Cassiopeia_313751158Doc.obj
+.\Debug\Cassiopeia_313751158View.obj
+.\Debug\Detail.obj
+.\Debug\Draw.obj
+.\Debug\Help.obj
+.\Debug\Login.obj
+.\Debug\MainFrm.obj
+.\Debug\MenuAll.obj
+.\Debug\PassWord.obj
+.\Debug\Register.obj
+.\Debug\Statistics.obj
+.\Debug\StdAfx.obj
+.\Debug\Tab.obj
+.\Debug\Cassiopeia_313751158.res
+]
+Creating command line "link.exe @C:\Users\Yang\AppData\Local\Temp\RSP1460.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Cassiopeia_313751158.cpp
+Cassiopeia_313751158Doc.cpp
+Cassiopeia_313751158View.cpp
+Detail.cpp
+Draw.cpp
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(114) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(118) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(122) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(126) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(132) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(136) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(140) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Draw.cpp(144) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Help.cpp
+Login.cpp
+MainFrm.cpp
+MenuAll.cpp
+PassWord.cpp
+Register.cpp
+Statistics.cpp
+Tab.cpp
+Generating Code...
+Linking...
+LINK : LNK6006: program database E:\Something\Study\windows\Windows\WindowsBig\Work\Cassiopeia_313751158_tab\Debug\Cassiopeia_313751158.pdb missing; performing full link
+Creating temporary file "C:\Users\Yang\AppData\Local\Temp\RSP346E.tmp" with contents
+[
+/nologo /o"Debug/Cassiopeia_313751158.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Cassiopeia_313751158.sbr
+.\Debug\Cassiopeia_313751158Doc.sbr
+.\Debug\Cassiopeia_313751158View.sbr
+.\Debug\Detail.sbr
+.\Debug\Draw.sbr
+.\Debug\Help.sbr
+.\Debug\Login.sbr
+.\Debug\MainFrm.sbr
+.\Debug\MenuAll.sbr
+.\Debug\PassWord.sbr
+.\Debug\Register.sbr
+.\Debug\Statistics.sbr
+.\Debug\Tab.sbr]
+Creating command line "bscmake.exe @C:\Users\Yang\AppData\Local\Temp\RSP346E.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Cassiopeia_313751158.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
