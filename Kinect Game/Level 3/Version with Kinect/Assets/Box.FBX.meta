@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: c8ccea97baa64914992909d127700ac7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box18
+    100004: Box19
+    100006: Box20
+    100008: Box21
+    100010: Box22
+    100012: Box23
+    100014: Box24
+    100016: Box25
+    100018: Box26
+    100020: Box27
+    100022: Corpus dereviannii
+    100024: Crisca dereviannaia01
+    100026: Pika
+    100028: Pika01
+    100030: Pika02
+    100032: Pika03
+    100034: Pika04
+    100036: Pika05
+    100038: Pika06
+    100040: Pika07
+    100042: Polosa pol na crisce
+    100044: Polosa pol na crisce01
+    100046: Polosa polucr1
+    100048: Polosa polucr2
+    100050: Stoika1
+    100052: Stoika2
+    100054: Stoika3
+    100056: Stoika4
+    100058: Zacliopca
+    100060: Zacliopca01
+    100062: Zacliopca02
+    100064: Zacliopca03
+    100066: Zacliopca04
+    100068: Zacliopca05
+    100070: Zacliopca06
+    100072: Zacliopca07
+    100074: Zacliopca08
+    100076: Zacliopca09
+    100078: Zacliopca10
+    100080: Zacliopca11
+    100082: Zacliopca12
+    100084: Zacliopca13
+    100086: Zacliopca14
+    100088: Zacliopca15
+    100090: Zacliopca16
+    100092: Zacliopca17
+    100094: Zacliopca18
+    100096: Zacliopca19
+    100098: Zacliopca20
+    100100: Zacliopca21
+    100102: Zacliopca22
+    100104: Zacliopca23
+    100106: Zacliopca24
+    100108: Zacliopca25
+    100110: Zacliopca26
+    100112: Zacliopca27
+    100114: Zacliopca28
+    100116: Zacliopca29
+    100118: Zacliopca30
+    100120: Zacliopca31
+    100122: Zacliopca32
+    100124: Zacliopca33
+    100126: Zacliopca34
+    100128: Zacliopca35
+    400000: //RootNode
+    400002: Box18
+    400004: Box19
+    400006: Box20
+    400008: Box21
+    400010: Box22
+    400012: Box23
+    400014: Box24
+    400016: Box25
+    400018: Box26
+    400020: Box27
+    400022: Corpus dereviannii
+    400024: Crisca dereviannaia01
+    400026: Pika
+    400028: Pika01
+    400030: Pika02
+    400032: Pika03
+    400034: Pika04
+    400036: Pika05
+    400038: Pika06
+    400040: Pika07
+    400042: Polosa pol na crisce
+    400044: Polosa pol na crisce01
+    400046: Polosa polucr1
+    400048: Polosa polucr2
+    400050: Stoika1
+    400052: Stoika2
+    400054: Stoika3
+    400056: Stoika4
+    400058: Zacliopca
+    400060: Zacliopca01
+    400062: Zacliopca02
+    400064: Zacliopca03
+    400066: Zacliopca04
+    400068: Zacliopca05
+    400070: Zacliopca06
+    400072: Zacliopca07
+    400074: Zacliopca08
+    400076: Zacliopca09
+    400078: Zacliopca10
+    400080: Zacliopca11
+    400082: Zacliopca12
+    400084: Zacliopca13
+    400086: Zacliopca14
+    400088: Zacliopca15
+    400090: Zacliopca16
+    400092: Zacliopca17
+    400094: Zacliopca18
+    400096: Zacliopca19
+    400098: Zacliopca20
+    400100: Zacliopca21
+    400102: Zacliopca22
+    400104: Zacliopca23
+    400106: Zacliopca24
+    400108: Zacliopca25
+    400110: Zacliopca26
+    400112: Zacliopca27
+    400114: Zacliopca28
+    400116: Zacliopca29
+    400118: Zacliopca30
+    400120: Zacliopca31
+    400122: Zacliopca32
+    400124: Zacliopca33
+    400126: Zacliopca34
+    400128: Zacliopca35
+    2300000: Box18
+    2300002: Box19
+    2300004: Box20
+    2300006: Box21
+    2300008: Box22
+    2300010: Box23
+    2300012: Box24
+    2300014: Box25
+    2300016: Box26
+    2300018: Box27
+    2300020: Corpus dereviannii
+    2300022: Crisca dereviannaia01
+    2300024: Pika
+    2300026: Pika01
+    2300028: Pika02
+    2300030: Pika03
+    2300032: Pika04
+    2300034: Pika05
+    2300036: Pika06
+    2300038: Pika07
+    2300040: Polosa pol na crisce
+    2300042: Polosa pol na crisce01
+    2300044: Polosa polucr1
+    2300046: Polosa polucr2
+    2300048: Stoika1
+    2300050: Stoika2
+    2300052: Stoika3
+    2300054: Stoika4
+    2300056: Zacliopca
+    2300058: Zacliopca01
+    2300060: Zacliopca02
+    2300062: Zacliopca03
+    2300064: Zacliopca04
+    2300066: Zacliopca05
+    2300068: Zacliopca06
+    2300070: Zacliopca07
+    2300072: Zacliopca08
+    2300074: Zacliopca09
+    2300076: Zacliopca10
+    2300078: Zacliopca11
+    2300080: Zacliopca12
+    2300082: Zacliopca13
+    2300084: Zacliopca14
+    2300086: Zacliopca15
+    2300088: Zacliopca16
+    2300090: Zacliopca17
+    2300092: Zacliopca18
+    2300094: Zacliopca19
+    2300096: Zacliopca20
+    2300098: Zacliopca21
+    2300100: Zacliopca22
+    2300102: Zacliopca23
+    2300104: Zacliopca24
+    2300106: Zacliopca25
+    2300108: Zacliopca26
+    2300110: Zacliopca27
+    2300112: Zacliopca28
+    2300114: Zacliopca29
+    2300116: Zacliopca30
+    2300118: Zacliopca31
+    2300120: Zacliopca32
+    2300122: Zacliopca33
+    2300124: Zacliopca34
+    2300126: Zacliopca35
+    3300000: Box18
+    3300002: Box19
+    3300004: Box20
+    3300006: Box21
+    3300008: Box22
+    3300010: Box23
+    3300012: Box24
+    3300014: Box25
+    3300016: Box26
+    3300018: Box27
+    3300020: Corpus dereviannii
+    3300022: Crisca dereviannaia01
+    3300024: Pika
+    3300026: Pika01
+    3300028: Pika02
+    3300030: Pika03
+    3300032: Pika04
+    3300034: Pika05
+    3300036: Pika06
+    3300038: Pika07
+    3300040: Polosa pol na crisce
+    3300042: Polosa pol na crisce01
+    3300044: Polosa polucr1
+    3300046: Polosa polucr2
+    3300048: Stoika1
+    3300050: Stoika2
+    3300052: Stoika3
+    3300054: Stoika4
+    3300056: Zacliopca
+    3300058: Zacliopca01
+    3300060: Zacliopca02
+    3300062: Zacliopca03
+    3300064: Zacliopca04
+    3300066: Zacliopca05
+    3300068: Zacliopca06
+    3300070: Zacliopca07
+    3300072: Zacliopca08
+    3300074: Zacliopca09
+    3300076: Zacliopca10
+    3300078: Zacliopca11
+    3300080: Zacliopca12
+    3300082: Zacliopca13
+    3300084: Zacliopca14
+    3300086: Zacliopca15
+    3300088: Zacliopca16
+    3300090: Zacliopca17
+    3300092: Zacliopca18
+    3300094: Zacliopca19
+    3300096: Zacliopca20
+    3300098: Zacliopca21
+    3300100: Zacliopca22
+    3300102: Zacliopca23
+    3300104: Zacliopca24
+    3300106: Zacliopca25
+    3300108: Zacliopca26
+    3300110: Zacliopca27
+    3300112: Zacliopca28
+    3300114: Zacliopca29
+    3300116: Zacliopca30
+    3300118: Zacliopca31
+    3300120: Zacliopca32
+    3300122: Zacliopca33
+    3300124: Zacliopca34
+    3300126: Zacliopca35
+    4300000: Crisca dereviannaia01
+    4300002: Corpus dereviannii
+    4300004: Stoika2
+    4300006: Stoika1
+    4300008: Stoika3
+    4300010: Stoika4
+    4300012: Polosa polucr1
+    4300014: Polosa polucr2
+    4300016: Zacliopca
+    4300018: Zacliopca01
+    4300020: Zacliopca02
+    4300022: Zacliopca03
+    4300024: Zacliopca04
+    4300026: Zacliopca05
+    4300028: Zacliopca06
+    4300030: Zacliopca07
+    4300032: Zacliopca08
+    4300034: Zacliopca09
+    4300036: Zacliopca10
+    4300038: Zacliopca11
+    4300040: Zacliopca12
+    4300042: Zacliopca13
+    4300044: Zacliopca14
+    4300046: Zacliopca15
+    4300048: Zacliopca16
+    4300050: Zacliopca17
+    4300052: Zacliopca18
+    4300054: Zacliopca19
+    4300056: Zacliopca20
+    4300058: Zacliopca21
+    4300060: Zacliopca22
+    4300062: Zacliopca23
+    4300064: Zacliopca24
+    4300066: Zacliopca25
+    4300068: Zacliopca26
+    4300070: Zacliopca27
+    4300072: Zacliopca28
+    4300074: Zacliopca29
+    4300076: Zacliopca30
+    4300078: Zacliopca31
+    4300080: Zacliopca32
+    4300082: Zacliopca33
+    4300084: Zacliopca34
+    4300086: Zacliopca35
+    4300088: Pika03
+    4300090: Box18
+    4300092: Box19
+    4300094: Pika
+    4300096: Pika01
+    4300098: Polosa pol na crisce
+    4300100: Pika02
+    4300102: Pika04
+    4300104: Box20
+    4300106: Box21
+    4300108: Pika05
+    4300110: Pika06
+    4300112: Polosa pol na crisce01
+    4300114: Pika07
+    4300116: Box24
+    4300118: Box22
+    4300120: Box23
+    4300122: Box25
+    4300124: Box26
+    4300126: Box27
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

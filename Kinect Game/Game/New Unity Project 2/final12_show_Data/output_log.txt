@@ -1,0 +1,188 @@
+Initialize engine version: 4.3.0f4 (e01000627d60)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 8.17.12.6754]
+    Renderer: NVIDIA GeForce 315M   
+    Vendor:   NVIDIA
+    VRAM:     839 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Default GameObject Tag: wu already registered
+ 
+(Filename:  Line: 68)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\OpenNI.Net.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\OpenNI.Net.dll into Unity Child Domain
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\ZDK.dll (this message is harmless)
+Loading C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\ZDK.dll into Unity Child Domain
+- Completed reload, in  0.181 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Trying to open Kinect sensor using MS Kinect SDK
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Note: Microsoft's Kinect SDK can only be used in one process at a time. Please quit any other processes using the Microsoft Kinect
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+This also means you must quit the Unity Editor before using any compiled product
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Exception while attempting to start reader:
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Error initing Kinect SDK: 2197880852
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+failed opening Kinect SDK sensor (if you intend to use the Microsoft Kinect SDK, please unplug the sensor, restart Unity and try again)
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Trying to open sensor using OpenNI
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Exception while attempting to start reader:
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+One or more of the following nodes could not be enumerated:
+
+Device: PrimeSense/SensorKinect/5.1.2.1: The device is not connected!
+Device: PrimeSense/SensorV2/5.1.2.1: The device is not connected!
+Device: PrimeSense/SensorKinect/5.1.2.1: The device is not connected!
+Device: PrimeSense/SensorV2/5.1.2.1: The device is not connected!
+
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+failed opening sensor using OpenNI version 1, attempting to open the sensor with OpenNI 2
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libNiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libNiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libNiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/NiTE2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libNiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libNiTE2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libNiTE2.dll
+ZigInputOpenNI2 Init
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/OpenNI2
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/.\libOpenNI2.dll
+Fallback handler could not load library C:/Users/Kelsey/Documents/New Unity Project 2/final12_show_Data/Mono/libOpenNI2.dll
+Exception while attempting to start reader:
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+OpenNI2.dll
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+failed opening sensor using OpenNI version 2
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Failed to load driver and middleware, review warnings above for specific exception messages from middleware
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Platform assembly: C:\Users\Kelsey\Documents\New Unity Project 2\final12_show_Data\Managed\Boo.Lang.dll (this message is harmless)
